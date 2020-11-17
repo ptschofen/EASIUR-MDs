@@ -2,8 +2,7 @@ setwd('C:/Users/ptsch/Documents/GitHub/EASIUR-MDs')
 
 ## Load Packages, set working directory
 library(tidyverse)
-library(foreign)
-library(readstata13)
+
 
 # Read in data, select columns of interest
 easiur.mds<-read.csv('EASIUR MDs.csv')
